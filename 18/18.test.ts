@@ -4,7 +4,7 @@ import { solveA, solveB } from "./18";
 
 const currentDay = path.basename(__dirname);
 
-describe(`AOC 2023 - Day ${currentDay}`, () => {
+describe(`AOC 2015 - Day ${currentDay}`, () => {
 	describe("Part A", () => {
 		test("Example", () => {
 			expect(solveA("example_a", currentDay, 4)).toBe(4);
